@@ -40,7 +40,7 @@
                             (organic-free-range-brown-speckled-eggs . 100))))))
 
 (defun bakers-list-recipes ()
-  (loop for i in *bakers-recipes* collect (print (car i))) t)
+  (loop for i in *bakers-recipes* do (print (car i))))
 
 (defun bakers-ingredients (recipe-name)
   (cdr (assoc 'ingredients (cadr (assoc recipe-name *bakers-recipes*)))))
