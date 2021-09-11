@@ -37,13 +37,13 @@
                             (flour . 100)
                             (butter . 100)
                             (sugar . 100)
-                            (eggs . 100))))))
+                            (organic-free-range-brown-speckled-eggs . 100))))))
 
 (defun bakers-ingredients (recipe-name)
-  (cdr (assoc 'ingredients (cadr (assoc recipe-name *recipes*)))))
+  (cdr (assoc 'ingredients (cadr (assoc recipe-name *bakers-recipes*)))))
 
 (defun bakers-procedure (recipe-name)
-  (dolist (step (cdr (assoc 'procedure (cadr (assoc recipe-name *recipes*)))))
+  (dolist (step (cdr (assoc 'procedure (cadr (assoc recipe-name *bakers-recipes*)))))
     (format t "~a~%" step))
   t)
 
@@ -57,7 +57,7 @@
 (defun bakers-rescale (recipe-name ingredient new-weight)
   (let ((ingredients (bakers-ingredients recipe-name))
         (scale-factor (bakers-scale-ingredient recipe-name ingredient new-weight))
-        (max-length-ingredient (apply #'max (mapcar #'(lambda (ingr) (length (write-to-string (car ingr)))) (bakers-ingredients 'banana-bread))))
+        (max-length-ingredient (apply #'max (mapcar #'(lambda (ingr) (length (write-to-string (car ingr)))) (bakers-ingredients recipe-name))))
         (total-weight 0))
     (dolist (scaled-ingredient
              (mapcar #'(lambda (ingredient) (cons (car ingredient) (* scale-factor (cdr ingredient))))
