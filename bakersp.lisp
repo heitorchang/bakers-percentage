@@ -1,4 +1,6 @@
-(defparameter *recipes*
+;; Eval (bakers-rescale 'recipe-name 'ingredient new-value)
+
+(defparameter *bakers-recipes*
   '((banana-bread ((procedure
                     "mix dry ingredients (except nuts) with a fork"
                     "sift dry ingredients (except nuts)"
