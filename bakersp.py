@@ -14,6 +14,12 @@ BAKERS_RECIPES = {
             ("flour", 100),
             ("sugar", 40),
             ("baking_powder", 5),
+            ("baking_soda", 0.6),
+            ("salt", 1.25),
+            ("walnuts_chopped", 25),
+            ("eggs", 40),
+            ("banana_pulp", 100),
+            ("butter_melted", 33),
         ]
     }
 }
