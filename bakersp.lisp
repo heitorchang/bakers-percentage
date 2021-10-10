@@ -29,6 +29,43 @@
                (oats . 150)
                (water . 300))))
 
+    (oatmeal-raisin-cookies ((procedure
+                              "have ingredients at room temperature."
+                              "cream butter, sugar and salt at low speed."
+                              "add eggs one at a time and blend."
+                              "sift the flour and leavening."
+                              "add oats to the flour and mix."
+                              "mix into butter and eggs until just combined."
+                              "blend raisins last."
+                              "drop balls of dough on parchment paper."
+                              "bake at 190 deg. C for 10-12 mins.")
+                             (ingredients
+                              (butter . 67)
+                              (brown-sugar . 133)
+                              (salt . 1.5)
+                              (eggs . 33)
+                              (vanilla-extract . 3)
+                              (milk . 8)
+                              (flour . 100)
+                              (baking-powder . 4)
+                              (baking-soda . 2)
+                              (cinnamon . 1)
+                              (oats . 83)
+                              (raisins . 67))))
+
+    (chocolate-chip-cookies ((procedure
+                              "creaming method.")
+                             (ingredients
+                              (butter . 150)
+                              (sugar . 90)
+                              (brown-sugar . 90)
+                              (salt . 4)
+                              (eggs . 100)
+                              (vanilla-extract . 4)
+                              (flour . 300)
+                              (baking-powder . 4)
+                              (chocolate-chips . 300))))
+                               
     (double-chocolate-chunk-cookies ((procedure
                                       "melt choc. and butter in double boiler. cool to room temp."
                                       "blend sugar, egg (at room temperature) and salt, do not whip."
