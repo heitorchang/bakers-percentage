@@ -28,6 +28,23 @@
               (ingredients
                (oats . 150)
                (water . 300))))
+
+    (double-chocolate-chunk-cookies ((procedure
+                                      "melt choc. and butter in double boiler. cool to room temp."
+                                      "blend sugar, egg (at room temperature) and salt, do not whip."
+                                      "sift flour, cocoa powder and baking powder. fold in"
+                                      "fold in white chocolate and nuts")
+                                     (ingredients
+                                      (semisweet-chocolate . 200)
+                                      (butter . 67)
+                                      (sugar . 33)
+                                      (eggs . 42)
+                                      (salt . 1.5)
+                                      (flour . 100)
+                                      (cocoa-powder . 8)
+                                      (baking-powder . 3)
+                                      (white-chocolate-bits . 67)
+                                      (nuts . 33))))                                      
     
     (make-believe-cookies ((procedure
                             "cream butter and sugar"
