@@ -32,7 +32,7 @@
     (oatmeal-raisin-cookies ((procedure
                               "have ingredients at room temperature."
                               "cream butter, sugar and salt at low speed."
-                              "add eggs one at a time and blend."
+                              "add vanilla and eggs, one at a time, and blend."
                               "sift the flour and leavening."
                               "add oats to the flour and mix."
                               "mix into butter and eggs until just combined."
@@ -65,7 +65,17 @@
                               (flour . 300)
                               (baking-powder . 4)
                               (chocolate-chips . 300))))
-                               
+
+    (biscotti ((procedure
+                "creaming method.")
+               (ingredients
+                (butter . 1)
+                (sugar . 1)
+                (flour . 2)
+                (baking-powder . 0.1)
+                (sliced-almonds . 1)
+                (eggs . 1))))
+                
     (double-chocolate-chunk-cookies ((procedure
                                       "melt choc. and butter in double boiler. cool to room temp."
                                       "blend sugar, egg (at room temperature) and salt, do not whip."
