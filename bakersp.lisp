@@ -13,7 +13,7 @@
                    (ingredients
                     (flour . 100)
                     (sugar . 40)
-                    (baking-powder . 5)
+                    (baking-powder . 5.0)
                     (baking-soda . 0.6)
                     (salt . 1.25)
                     (walnuts-chopped . 25)
@@ -63,7 +63,7 @@
                               (eggs . 100)
                               (vanilla-extract . 4)
                               (flour . 300)
-                              (baking-powder . 4)
+                              (baking-soda . 4)
                               (chocolate-chips . 300))))
 
     (biscotti ((procedure
