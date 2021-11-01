@@ -20,7 +20,30 @@
                     (eggs . 40)
                     (banana-pulp . 100)
                     (butter-melted . 33))))              
-    
+
+    (devils-food-cake ((procedure
+                        "two-stage method"
+                        "have ingredients at room temperature."
+                        "sift all dry ingredients into the bowl."
+                        "add the fat and part of the liquid."
+                        "mix on low speed for 8 minutes, scraping the sides several times."
+                        "in a separate bowl, combine the remaining liquid and beaten eggs."
+                        "add this mixture to the batter in 3 parts. scrape the sides each time."
+                        "mix for another 5 minutes."
+                        "bake at 180 deg. C for about 20 mins.")
+                       (ingredients
+                        (flour . 100)
+                        (cocoa . 17)
+                        (salt . 2)
+                        (baking-powder . 3)
+                        (baking-soda . 2)
+                        (butter . 60)                        
+                        (sugar . 100)
+                        (milk . 67)
+                        (vanilla-extract . 1.5)
+                        (milk . 50)
+                        (eggs . 67))))
+
     (oatmeal ((procedure
                "boil water"
                "add oats"
