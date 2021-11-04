@@ -32,17 +32,17 @@
                         "mix for another 5 minutes."
                         "bake at 180 deg. C for about 20 mins.")
                        (ingredients
-                        (flour . 100)
-                        (cocoa . 17)
-                        (salt . 2)
-                        (baking-powder . 3)
-                        (baking-soda . 2)
-                        (butter . 60)                        
-                        (sugar . 100)
-                        (milk . 67)
-                        (vanilla-extract . 1.5)
-                        (milk . 50)
-                        (eggs . 67))))
+                        (flour . 225)
+                        (cocoa . 40)
+                        (salt . 5)
+                        (baking-powder . 7)
+                        (baking-soda . 5)
+                        (butter . 135)                        
+                        (sugar . 225)
+                        (milk . 150)
+                        (vanilla-extract . 4)
+                        (milk . 110)
+                        (eggs . 150))))
 
     (oatmeal ((procedure
                "boil water"
