@@ -11,15 +11,15 @@
                     "mix until all flour is moistened (do not overmix)"
                     "bake at 190 deg. C for 25-30 minutes")
                    (ingredients
-                    (flour . 100)
-                    (sugar . 40)
-                    (baking-powder . 5.0)
-                    (baking-soda . 0.6)
-                    (salt . 1.25)
-                    (walnuts-chopped . 25)
-                    (eggs . 40)
-                    (banana-pulp . 100)
-                    (butter-melted . 33))))              
+                    (flour . 250)
+                    (sugar . 100)
+                    (baking-powder . 12)
+                    (baking-soda . 2)
+                    (salt . 3)
+                    (walnuts-chopped . 65)
+                    (eggs . 100)
+                    (banana-pulp . 250)
+                    (butter-melted . 80))))
     
     (oatmeal ((procedure
                "boil water"
@@ -40,68 +40,45 @@
                               "drop balls of dough on parchment paper."
                               "bake at 190 deg. C for 10-12 mins.")
                              (ingredients
-                              (butter . 67)
-                              (brown-sugar . 133)
-                              (salt . 1.5)
-                              (eggs . 33)
-                              (vanilla-extract . 3)
-                              (milk . 8)
-                              (flour . 100)
-                              (baking-powder . 4)
-                              (baking-soda . 2)
-                              (cinnamon . 1)
-                              (oats . 83)
-                              (raisins . 67))))
+                              (butter . 100)
+                              (brown-sugar . 200)
+                              (salt . 2)
+                              (eggs . 50)
+                              (vanilla-extract . 4)
+                              (milk . 12)
+                              (flour . 150)
+                              (baking-powder . 6)
+                              (baking-soda . 3)
+                              (cinnamon . 2)
+                              (oats . 125)
+                              (raisins . 100))))
 
     (chocolate-chip-cookies ((procedure
-                              "creaming method.")
+                              "creaming method."
+                              "sugar halved.")
                              (ingredients
-                              (butter . 150)
-                              (sugar . 90)
-                              (brown-sugar . 90)
-                              (salt . 4)
-                              (eggs . 100)
-                              (vanilla-extract . 4)
-                              (flour . 300)
-                              (baking-soda . 4)
-                              (chocolate-chips . 300))))
+                              (butter . 75)
+                              (sugar . 45)
+                              (brown-sugar . 45)
+                              (salt . 2)
+                              (eggs . 50)
+                              (vanilla-extract . 2)
+                              (flour . 150)
+                              (baking-soda . 2)
+                              (chocolate-chips . 100))))
 
     (biscotti ((procedure
                 "creaming method.")
                (ingredients
-                (butter . 1)
-                (sugar . 1)
-                (flour . 2)
-                (baking-powder . 0.1)
-                (sliced-almonds . 1)
-                (eggs . 1))))
-                
-    (double-chocolate-chunk-cookies ((procedure
-                                      "melt choc. and butter in double boiler. cool to room temp."
-                                      "blend sugar, egg (at room temperature) and salt, do not whip."
-                                      "sift flour, cocoa powder and baking powder. fold in"
-                                      "fold in white chocolate and nuts")
-                                     (ingredients
-                                      (semisweet-chocolate . 200)
-                                      (butter . 67)
-                                      (sugar . 33)
-                                      (eggs . 42)
-                                      (salt . 1.5)
-                                      (flour . 100)
-                                      (cocoa-powder . 8)
-                                      (baking-powder . 3)
-                                      (white-chocolate-bits . 67)
-                                      (nuts . 33))))                                      
+                (butter . 115)
+                (sugar . 150)
+                (eggs . 100)
+                (flour . 270)
+                (baking-powder . 6)
+                (salt . 2)
+                (sliced-almonds . 75))))              
     
-    (make-believe-cookies ((procedure
-                            "cream butter and sugar"
-                            "add flour"
-                            "bake for 10 minutes")
-                           (ingredients
-                            (flour . 100)
-                            (butter . 100)
-                            (sugar . 100)
-                            (organic-free-range-brown-speckled-eggs . 100))))))
+    ))
 
 (defun bakers-list-recipes ()
   (loop for i in *bakers-recipes* do (print (car i))))
